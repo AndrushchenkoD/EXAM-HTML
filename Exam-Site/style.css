@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #FAF4F2;;
+}
+.main-wrapper{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:125px
+}
+.text-main-style{
+    font-family: Poppins,sans-serif;
+}
+/*-----------------------SECTION Acquaintance---------------------------*/
+.acquaintance{
+    width: 100%;
+    display: flex;
+    padding: 100px 182px 0 182px;
+    justify-content: space-between;
+}
+.acquaintance img{
+    width: 406px;
+    height: 406px;
+    filter: drop-shadow(0px 20px 40px rgba(59, 67, 242, 0.10));
+}
+.acquaintance-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.acquaintance-wrap h1{
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    width: 475px;
+}
+.acquaintance-wrap p{
+    margin-top: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #222;
+    width: 509px;
+    height: 144px;
+}
+.acquaintance-wrap svg{
+    margin-top: 54px;
+}
+.acquaintance-buttons{
+    margin-top: 25px;
+}
+.acquaintance-Request-button{
+    border: none;
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.acquaintance-DownloadCV-button{
+    margin-left: 30px;
+    width: 153px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    background: #FAF4F2;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+}
+/*------------------------SECTION-gladToHelp---------------------------------*/
+section.gladToHelp{
+    padding-left: 32px;
+    border-radius: 35px;
+    background: #FF7315;
+    width: 1140px;
+    height: 519px;
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    justify-items: center;
+}
+.gladToHelp-wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+}
+.gladToHelp-wrap h2{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+}
+.gladToHelp-wrap h2.size48px{
+    font-size: 48px;
+}
+.gladToHelp-wrap p{
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    width: 570px;
+    line-height: 45px;
+}
+/*----------------------------SECTION-whyHireMe------------------------------------------*/
+.whyHireMe-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.whyHireMe h2{
+    text-align: center;
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+.whyHireMeCards{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+.whyHireMeCard{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.whyHireMeCard-bgSvg{
+    width: 98px;
+    height: 98px;
+    background-color: rgba(34, 34, 34, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whyHireMeCard h3{
+    margin-top: 51px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+    line-height: 36px; /* 150% */}
+
+.whyHireMeCard p{
+    width: 240px;
+    margin-top: 12px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/*-----------------Section-portfolio---------------------------------*/
+.portfolio{
+    padding: 0 150px;
+}
+.portfolio h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%;
+    color: #222;
+    text-transform: capitalize;
+}
+.portfolio-gallery{
+    margin-top: 64px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+/*----------------Section-ClientsWorldWire---------------------------*/
+.ClientsWorldWire{
+    background: #FF7315;
+    padding-bottom: 185px;
+}
+.ClientsWorldWire-wrap{
+    margin: 48px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 111px;
+}
+.ClientsWorldWire h2{
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px; /* 125% */}
+
+.ClientsWorldWireCards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 82px;
+}
+.ClientsWorldWireCard{
+    padding: 24px 0 55px 55px;
+    width: 529px;
+    height: 179px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+.ClientsWorldWireCard p{
+    font-size: 24px;
+    font-weight: 400;
+    width: 419px;
+    height: 108px;
+}
+/*--------------Section-PricePlans---------------------------------*/
+.PricePlans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PricePlans>h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    color: #222;
+}
+.PricePlansCards{
+    width: 1440px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.PricePlansCard{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+.PricePlansCard h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color:#F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+}
+.PricePlansCard h3{
+    margin: 36px 0 29px 0;
+   text-align: center;
+    color: #2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+}
+.PricePlansCard span{
+    margin-left: 12px;
+    color:  #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+.PricePlansCard ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.PricePlansCard ul li::before{
+    margin-left: 48px;
+    content: "";
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url('IMG/Close.svg');
+}
+.PricePlansCard-1dol li:nth-child(-n+2){
+    color:  #222;
+}
+.PricePlansCard-1dol li:nth-child(-n+2)::before{
+    background-image: url('IMG/Check.svg')
+}
+.PricePlansCard-50dol li:nth-child(-n+4){
+    color:  #222;
+}
+.PricePlansCard-50dol li:nth-child(-n+4)::before{
+    background-image: url('IMG/Check.svg')
+}
+.PricePlansCard-90dol li:nth-child(n){
+    color:  #222;
+}
+.PricePlansCard-90dol li:nth-child(n)::before{
+    background-image: url('IMG/Check.svg')
+}
+
+.PricePlansCard li{
+    display: flex;
+    color:  #9B9B9BFF;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+}
+
+
+.PricePlans-WorkingWithMe-wrap{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+}
+.PricePlans-WorkingWithMe-wrap h3{
+    width: 343px;
+    margin-left: 75px;
+    color:  #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+}
+.PricePlans-WorkingWithMe-wrap button{
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+    margin-right: 100px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+/*-----------------Section-blog--------------------------------------------*/
+.blog{
+    padding: 0 150px;
+    width: 1440px;
+}
+.blog>h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    color: #222;
+}
+.blogCards{
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.blogCard{
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 10px 0 10px;
+}
+.blogCard img{
+    border-radius: 15px;
+}
+.blogCard h3{
+    color: #222;
+    width: 233px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+
+}
+.blogCard p{
+    margin-top: 12px;
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+}
+/*---------------Footer-------------------------------*/
+footer{
+    background: #F1F1F1;
+    width: 1440px;
+    height: 170px;
+    display: flex;
+    color: #222;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
